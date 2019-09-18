@@ -1,10 +1,101 @@
 a {
-    color:#6A6;
+    color: white;
     text-decoration: none;
 }
-.body {
-    border: 1px blue solid;
-    margin: 24px;
-    padding: 24px;
 
+ul {
+    margin: 0;
+
+}
+
+html {
+    background-color : #FA8072;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+/*header css*/
+
+.header {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    height: 10rem; 
+    width: 10rem;
+    padding: 0.625rem;
+}
+
+.ml {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.name-logo { 
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex; 
+    list-style: none;
+    justify-content: center;
+    padding: 0.625rem;
+}
+
+
+/*content css*/
+
+
+
+
+.name {
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    color: white;
+    margin: 0.625rem;
+    text-align: center;
+}
+
+
+
+.section-content {
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.statement { 
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
