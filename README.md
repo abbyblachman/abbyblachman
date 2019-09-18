@@ -2,7 +2,7 @@
 
 Welcome to my portfolio. 
 
-*About my portfolio*
+<strong>About my portfolio</strong>
 
 I am using this portfolio to showcase my work, and also to showcase my ability to use HTML, CSS and JavaScript to build a functional website. 
 
