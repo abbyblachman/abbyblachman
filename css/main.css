@@ -28,9 +28,10 @@ body {
 }
 
 .logo {
-    height: 10rem; 
-    width: 10rem;
+    height: 7rem; 
+    width: 7rem;
     padding: 0.625rem;
+    margin: auto;
 }
 
 .logo-small {
@@ -53,6 +54,7 @@ body {
 .name-logo { 
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .nav {
@@ -64,16 +66,47 @@ body {
 
 /*content css*/
 
+.contact {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    list-style: none;
+    padding-inline-start: 0;
+    
+}
 
+.contact-pad {
+    padding: 0.625rem;
+}
 
+.page-title {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: white;
+    padding-left: 0.625rem;
+}
+
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.625rem;
+}
+
+.icon-wide {
+    height: 1.5rem;
+    width: 1.8rem;
+    margin-right: 0.625rem;
+}
 
 .name {
     font-family: 'Lobster', cursive;
-    font-size: 8rem;
+    font-size: 3rem;
     color: white;
     margin: 0.625rem;
     text-align: center;
 }
+
+
 
 .name-small {
     font-family: 'Lobster', cursive;
@@ -114,10 +147,20 @@ body {
 .statement { 
     color: white; 
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    padding: 1.5rem;
+    font-size: 1rem;
+    padding: 1rem;
     text-align: center;
 }
+
+.about-statement { 
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+
 
 /*footer*/
 
@@ -141,4 +184,50 @@ body {
 .footer {
     display: flex;
     justify-content: center;
+}
+
+/**responsive design on any screen size greater than 1024px**/
+@media (min-width: 1024px) {
+    .name {
+        font-size: 8rem;
+    }
+    .name-logo {
+        display: flex;
+        flex-direction: row;
+    }
+    .logo {
+    height: 10rem; 
+    width: 10rem;
+    padding: 0.625rem;
+
+    }
+    .statement { 
+        color: white; 
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        text-align: center;
+    }
+    .about-statement { 
+        color: white; 
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .page-title {
+        font-family: 'Lobster', cursive;
+        font-size: 4rem;
+        color: white;
+    }
+
+    .contact {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        list-style: none;
+        
+    }
 }
