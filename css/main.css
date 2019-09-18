@@ -9,7 +9,7 @@ ul {
 }
 
 html {
-    background-color : #FA8072;
+    background-color :#FBC02D;
 }
 
 body {
@@ -173,7 +173,7 @@ body {
 }
 
 .button:hover {
-    background-color: #fcc6c0;
+    background-color: #FFE082;
     color: white;
   }
   .button-flex {
