@@ -1,6 +1,6 @@
 # abbyblachman
 
-Welcome to my portfolio. View the live site: https://abbyblachman.github.io/abbyblachman/
+Welcome to my portfolio. View the live site: abbyblachman.me
 
 <strong>About my portfolio</strong>
 
