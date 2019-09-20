@@ -80,13 +80,6 @@ only on the other pages where there is a header*/
     padding: 0.625rem;
 }
 
-.page-title {
-    font-family: 'Lobster', cursive;
-    font-size: 2rem;
-    color: white;
-    padding-left: 0.625rem;
-}
-
 .icon {
     height: 1.5rem;
     width: 1.5rem;
@@ -128,6 +121,14 @@ only on the other pages where there is a header*/
     flex-direction: column;
 }
 
+.page-title {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: white;
+    padding: 0.625rem;
+    text-align: center;
+}
+
 .portfolio-grid {
     display: flex;
     flex-wrap: wrap;
@@ -136,8 +137,8 @@ only on the other pages where there is a header*/
 }
 
 .portfolio-img {
-    width: 14rem;
-    height: 10rem;
+    width: 10rem;
+    height: 7rem;
     padding: 0.5rem; 
 }
 
@@ -245,6 +246,8 @@ only on the other pages where there is a header*/
 
     .page-title {
         font-size: 4rem;
+        padding-left: 0.625 rem;
+        text-align: left;
     }
 
     .portfolio-img {
