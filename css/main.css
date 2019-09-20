@@ -135,12 +135,10 @@ only on the other pages where there is a header*/
     
 }
 
-
-
 .portfolio-img {
     width: 14rem;
     height: 10rem;
-    padding: 1rem; 
+    padding: 0.5rem; 
 }
 
 .portfolio-img:hover {
@@ -247,6 +245,12 @@ only on the other pages where there is a header*/
 
     .page-title {
         font-size: 4rem;
+    }
+
+    .portfolio-img {
+        width: 14rem;
+        height: 10rem;
+        padding: 1rem; 
     }
 
     .section-main {
