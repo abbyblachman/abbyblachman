@@ -1,3 +1,4 @@
+/* some overall element styling */
 a {
     color: white;
     text-decoration: none;
@@ -19,19 +20,13 @@ body {
 
 }
 
-/*header css*/
+/*header css - this does not style anything on index.html, 
+only on the other pages where there is a header*/
 
 .header {
     display: flex;
     list-style: none;
     border-bottom: white solid 1px;
-}
-
-.logo {
-    height: 7rem; 
-    width: 7rem;
-    padding: 0.625rem;
-    margin: auto;
 }
 
 .logo-small {
@@ -42,29 +37,23 @@ body {
     margin-right: 0.025rem;
 }
 
-.ml {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.4rem;
-    font-family: 'Roboto', sans-serif;
-
-
+.name-small {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 0.625rem;
+    text-align: left;
 }
-
-.name-logo { 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.nav {
-    display: flex; 
-    justify-content: center;
-    padding: 0.625rem;
-}
-
 
 /*content css*/
+
+.about-statement { 
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: left;
+}
 
 .contact {
     color: white;
@@ -98,32 +87,50 @@ body {
     margin-right: 0.625rem;
 }
 
+.logo {
+    height: 7rem; 
+    width: 7rem;
+    padding: 0.625rem;
+    margin: auto;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 .name {
     font-family: 'Lobster', cursive;
-    font-size: 3rem;
+    /*font-size: 3rem;*/
+    font-size: 9vw;
     color: white;
     margin: 0.625rem;
     text-align: center;
 }
 
-
-
-.name-small {
-    font-family: 'Lobster', cursive;
-    font-size: 2rem;
-    color: white;
-    margin: 0.625rem;
-    text-align: left;
+.name-logo { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .portfolio-grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 
 .portfolio-grid img {
     margin: 12px;
+}
+
+
+.portfolio-img {
+    width: 16rem;
+    height: 12rem;
 }
 
 
@@ -152,16 +159,6 @@ body {
     text-align: center;
 }
 
-.about-statement { 
-    color: white; 
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    padding: 1rem;
-    text-align: left;
-}
-
-
-
 /*footer*/
 
 .button {
@@ -172,86 +169,77 @@ body {
 
 }
 
+.button-flex {
+    display: flex;
+  }
+
 .button:hover {
     background-color: #82E0AA;
     color: white;
   }
-  .button-flex {
-    display: flex;
-  }
-
 
 .footer {
     display: flex;
     justify-content: center;
 }
 
+.nav {
+    display: flex; 
+    justify-content: center;
+    padding: 0.625rem;
+}
+
+
 /**responsive design on any screen size greater than 1024px**/
 @media (min-width: 1024px) {
-    .name {
-        font-size: 8rem;
-    }
-    .name-logo {
-        display: flex;
-        flex-direction: row;
-    }
-    .logo {
-    height: 10rem; 
-    width: 10rem;
-    padding: 0.625rem;
 
-    }
-    .statement { 
-        color: white; 
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.5rem;
-        padding: 1.5rem;
-        text-align: center;
-    }
     .about-statement { 
-        color: white; 
-        font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         padding: 1.5rem;
-        text-align: left;
         justify-content: center;
-    }
-
-    .page-title {
-        font-family: 'Lobster', cursive;
-        font-size: 4rem;
-        color: white;
-    }
-
-    .contact {
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.5rem;
-        list-style: none;
-        
-    }
-    .section-main {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-        justify-content: center;
-    
-    }
-    .ml {
-        display: flex;
-        justify-content: space-between;
-        padding: 0.625rem;
-        font-family: 'Roboto', sans-serif;
-    
-    
     }
 
     .button {
-        border: 1px solid white;
         border-radius: 6px;
-        color: white;
         padding: 12px;
     
     }
+
+    .contact {
+        font-size: 1.5rem;
+   
+    }
+
+    .logo {
+    height: 10rem; 
+    width: 10rem;
+
+    }
+
+    .btn {
+        padding: 0.625rem;
+    
+    }
+/*
+    .name {
+        font-size: 8rem;
+    }
+    */
+    .name-logo {
+        flex-direction: row;
+    }
+
+    .page-title {
+        font-size: 4rem;
+    }
+
+    .section-main {
+        flex-grow: 1;
+    
+    }
+
+    .statement { 
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }    
 }
