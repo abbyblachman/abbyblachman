@@ -11,6 +11,7 @@ ul {
 
 html {
     background-color: #148F77;
+
 }
 
 body {
@@ -134,14 +135,12 @@ only on the other pages where there is a header*/
     
 }
 
-.portfolio-grid img {
-    margin: 12px;
-}
 
 
 .portfolio-img {
     width: 16rem;
     height: 12rem;
+    padding: 1rem; 
 }
 
 .portfolio-img:hover {
