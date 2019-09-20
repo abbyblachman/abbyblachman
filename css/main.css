@@ -10,7 +10,7 @@ ul {
 }
 
 html {
-    background-color :#148F77   ;
+    background-color: #148F77;
 }
 
 body {
@@ -19,6 +19,9 @@ body {
     height: 100vh;
 
 }
+
+
+
 
 /*header css - this does not style anything on index.html, 
 only on the other pages where there is a header*/
@@ -53,6 +56,14 @@ only on the other pages where there is a header*/
     font-size: 1rem;
     padding: 1rem;
     text-align: left;
+}
+
+.caption {
+    width: 16rem;
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding-left: 1rem;
 }
 
 .contact {
@@ -131,6 +142,12 @@ only on the other pages where there is a header*/
 .portfolio-img {
     width: 16rem;
     height: 12rem;
+}
+
+.portfolio-img:hover {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
 }
 
 
