@@ -1,7 +1,7 @@
 /* some overall element styling */
 a {
-    color: white;
     text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -29,7 +29,7 @@ only on the other pages where there is a header*/
 
 .header {
     display: flex;
-    list-style: none;
+    list-style: none;    
     border-bottom: white solid 1px;
 }
 
@@ -52,7 +52,7 @@ only on the other pages where there is a header*/
 /*content css*/
 
 .about-statement { 
-    color: white; 
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     padding: 1rem;
@@ -99,16 +99,10 @@ only on the other pages where there is a header*/
     margin: auto;
 }
 
-.btn{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.4rem;
-    font-family: 'Roboto', sans-serif;
-}
+
 
 .name {
     font-family: 'Lobster', cursive;
-    /*font-size: 3rem;*/
     font-size: 9vw;
     color: white;
     margin: 0.625rem;
@@ -149,7 +143,6 @@ only on the other pages where there is a header*/
 }
 
 
-
 .section-content {
     max-width: 60rem;
     display: flex;
@@ -166,8 +159,8 @@ only on the other pages where there is a header*/
 
 }
 
-.statement { 
-    color: white; 
+.statement {
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     padding: 1rem;
@@ -176,10 +169,16 @@ only on the other pages where there is a header*/
 
 /*footer*/
 
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 .button {
     border: 1px solid white;
     border-radius: 10px;
-    color: white;
     padding: 6px;
 
 }
@@ -246,7 +245,6 @@ only on the other pages where there is a header*/
 
     .page-title {
         font-size: 4rem;
-        padding-left: 0.625 rem;
         text-align: left;
     }
 
