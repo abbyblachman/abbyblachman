@@ -1,0 +1,266 @@
+/* some overall element styling */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    margin: 0;
+
+}
+
+html {
+    background-color: #148F77;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+
+
+
+/*header css - this does not style anything on index.html, 
+only on the other pages where there is a header*/
+
+.header {
+    display: flex;
+    list-style: none;    
+    border-bottom: white solid 1px;
+}
+
+.logo-small {
+    height: 3.5rem; 
+    width: 3.5rem;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    margin-right: 0.025rem;
+}
+
+.name-small {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 0.625rem;
+    text-align: left;
+}
+
+/*content css*/
+
+.about-statement { 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+.caption {
+    width: 16rem;
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.contact {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    list-style: none;
+    padding-inline-start: 0;
+    
+}
+
+.contact-pad {
+    padding: 0.625rem;
+}
+
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.625rem;
+}
+
+.icon-wide {
+    height: 1.5rem;
+    width: 1.8rem;
+    margin-right: 0.625rem;
+}
+
+.logo {
+    height: 7rem; 
+    width: 7rem;
+    padding: 0.625rem;
+    margin: auto;
+}
+
+
+
+.name {
+    font-family: 'Lobster', cursive;
+    font-size: 9vw;
+    color: white;
+    margin: 0.625rem;
+    text-align: center;
+}
+
+.name-logo { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-title {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: white;
+    padding: 0.625rem;
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.portfolio-img {
+    width: 10rem;
+    height: 7rem;
+    padding: 0.5rem; 
+}
+
+.portfolio-img:hover {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+}
+
+
+.section-content {
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.75;
+    justify-content: center;
+
+}
+
+.statement {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/*footer*/
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 6px;
+
+}
+
+.button-flex {
+    display: flex;
+  }
+
+.button:hover {
+    background-color: #82E0AA;
+    color: white;
+  }
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex; 
+    justify-content: center;
+    padding: 0.625rem;
+}
+
+
+/**responsive design on any screen size greater than 1024px**/
+@media (min-width: 1024px) {
+
+    .about-statement { 
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        justify-content: center;
+    }
+
+    .button {
+        border-radius: 6px;
+        padding: 12px;
+    
+    }
+
+    .contact {
+        font-size: 1.5rem;
+   
+    }
+
+    .logo {
+    height: 10rem; 
+    width: 10rem;
+
+    }
+
+    .btn {
+        padding: 0.625rem;
+    
+    }
+/*
+    .name {
+        font-size: 8rem;
+    }
+    */
+    .name-logo {
+        flex-direction: row;
+    }
+
+    .page-title {
+        font-size: 4rem;
+        text-align: left;
+    }
+
+    .portfolio-img {
+        width: 14rem;
+        height: 10rem;
+        padding: 1rem; 
+    }
+
+    .section-main {
+        flex-grow: 1;
+    
+    }
+
+    .statement { 
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }    
+}
